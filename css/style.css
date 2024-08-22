@@ -1,0 +1,215 @@
+#navbar{
+    display:flex;
+    position: sticky;
+}
+#navbar img{
+    top:5px;
+    height: 100px;
+    width:150px;
+    left:40px;
+    transition-property: rotate;
+    transition-duration: 1s;
+    
+}
+#navbar img:hover{
+    rotate: 360deg;
+}
+#navbar ul{
+    display:flex;
+    
+}
+#navbar li{
+    margin:23px 15px;
+    
+}
+#navbar ul li{
+    list-style: none;
+    
+}
+#navbar ul li a{
+    color:white;
+    display:block;
+    font-size: large;
+    
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+
+}
+.content{
+    background-color: black;
+    height:100%;
+    width:100%;  
+}
+#home{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+
+}
+.content{
+    height:150%;
+    width:100%;  
+    background:url('/image/spaghetti-1932466_1280.jpg');
+    padding:23px 20px;
+    
+}
+.primary{
+    font-size:35px;
+    color:white;
+}
+#home p{
+    color:white;
+    font-size:15px;
+}
+input{
+    border:2px solid black;
+    color:rgb(42, 7, 7);
+    transition-property: background-color;
+    border-radius: 8px;
+}
+input:hover{
+    background-color:dimgrey;
+    
+}
+#services{
+    margin:30px;
+    display:flex;
+    
+}
+#services .box{
+    border: 2px solid rgb(62, 57, 50);
+    width: 1600px;
+    height: 250px;
+    padding:10px 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius:10px;
+    background-color: darkgray;
+   
+}
+.service-container h1{
+    color:white;
+    background-color: rgb(49, 35, 18);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    animation-name:nand;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes nand {
+    from{
+        width:0px;
+    }
+    to{
+        width:400px;
+    }
+    
+}
+
+
+#services .box img{
+    height:120px;
+    width:120px;
+    border:2px solid rgb(42, 7, 7);
+    top:10px;
+    left:20px;
+    margin:auto;
+    display:block;
+}
+.secondary{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+}
+#client-section{
+    height:300px;
+    
+    
+}
+#client-section  h1{
+    display:block;
+    background-color: black;
+    color:white;
+    margin:auto;
+    width:75px;
+    /* justify-content: center;
+    align-items: center; */
+     width: 120px;
+    font-size: 40px;
+}
+#clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.client-items img{
+    height:100px;
+    width:100px;
+    /* justify-content:center;
+    align-items: center; */
+    /* display:flex;
+    flex-direction:column; */
+    padding:20px 10px;
+    translate: rotation;
+}
+.client-items img:hover{
+    translate:skew;
+}
+.content1{
+    background: url('/image/dessert-352475_1280.jpg');
+    height: 400px;
+    width:100%;
+    margin:20px;
+}
+.content2{
+    height:70vh;
+    background: url('/image/contact-us-6933645_1280.jpg');
+    
+}
+.contactimg{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+#contact2 img{
+    height:80px;
+    width:100px;
+    margin:auto;
+    display:block;
+    
+}
+#contact h1{
+    color:black;
+    font-size:90x;
+    
+}
+.form-group{
+    font-size: 30px;
+}
+.form-group input{
+    font-size: 25px;
+}
+footer{
+    background-color: black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding:10px;
+   
+    
+}
